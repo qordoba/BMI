@@ -1,10 +1,10 @@
 shinyUI(
   pageWithSidebar(
     # Application title
-    headerPanel("BMICalculator"),
+    headerPanel("Bodymassindex"),
     sidebarPanel(
-      numericInput('weight', 'Weight in Kg', 90, min = 40, max = 300, step = 1),
-      numericInput('height', 'height in m', 1.8, min = 1.2, max = 2.2, step = 0.01),
+      numericInput('weight', 'Inout your Weight in Kg', 90, min = 40, max = 300, step = 1),
+      numericInput('height', 'Input you height in m', 1.8, min = 1.2, max = 2.2, step = 0.01),
       submitButton('Submit')
     ),
     mainPanel(
