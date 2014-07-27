@@ -1,7 +1,7 @@
 shinyUI(
   pageWithSidebar(
     # Application title
-    headerPanel("BMI Calculation"),
+    headerPanel("BMICalculator"),
     sidebarPanel(
       numericInput('weight', 'Weight in Kg', 90, min = 40, max = 300, step = 1),
       numericInput('height', 'height in m', 1.8, min = 1.2, max = 2.2, step = 0.01),
